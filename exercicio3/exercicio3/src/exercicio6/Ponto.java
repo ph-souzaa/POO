@@ -1,12 +1,12 @@
 package exercicio6;
 
-public class Produto {
+public class Ponto {
   private float pontoX1;
   private float pontoY1;
   private float pontoX2;
   private float pontoY2;
 
-  public Produto(float pontoX1, float pontoY1, float pontoX2, float pontoY2) {
+  public Ponto(float pontoX1, float pontoY1, float pontoX2, float pontoY2) {
     this.pontoX1 = pontoX1;
     this.pontoY1 = pontoY1;
     this.pontoX2 = pontoX2;

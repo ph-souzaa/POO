@@ -14,8 +14,8 @@ public class Main {
     float pontoX2 = scanner.nextFloat();
     float pontoY2 = scanner.nextFloat();
 
-    Produto produto = new Produto(pontoX1, pontoY1, pontoX2, pontoY2);
-    float distancia = produto.calculaDistancia();
+    Ponto ponto = new Ponto(pontoX1, pontoY1, pontoX2, pontoY2);
+    float distancia = ponto.calculaDistancia();
 
     System.out.printf("A distância entre os dois pontos é: %.2f%n", distancia);
   }
