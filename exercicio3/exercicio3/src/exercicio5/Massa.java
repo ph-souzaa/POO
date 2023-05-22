@@ -1,9 +1,9 @@
 package exercicio5;
 
 public class Massa {
-  private float massaInicial;
-  private float massaFinal;
-  private int tempo;
+  public float massaInicial;
+  public float massaFinal;
+  public int tempo;
 
   public Massa(float massaInicial) {
     this.massaInicial = massaInicial;

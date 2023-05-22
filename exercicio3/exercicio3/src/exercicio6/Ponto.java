@@ -14,9 +14,8 @@ public class Ponto {
   }
 
   public float calculaDistancia() {
-    float deltaX = pontoX2 - pontoX1;
-    float deltaY = pontoY2 - pontoY1;
-    float distancia = (float) Math.sqrt(deltaX * deltaX + deltaY * deltaY);
+    float distancia = (float) Math
+        .sqrt((pontoX2 - pontoX1) * (pontoX2 - pontoX1) + (pontoY2 - pontoY1) * (pontoY2 - pontoY1));
     return distancia;
   }
 }
